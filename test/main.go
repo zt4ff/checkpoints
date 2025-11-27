@@ -2,12 +2,11 @@ package main
 
 import (
 	"fmt"
-	"test"
+	"piscine"
 )
 
-func main () {
-	fmt.Println(test.DigitLen(100, 10))
-	fmt.Println(test.DigitLen(100, 2))
-	fmt.Println(test.DigitLen(-100, 16))
-	fmt.Println(test.DigitLen(100, -1))
+func main() {
+	fmt.Print(piscine.FirstWord("this        ...       is sparta, then again, maybe    not"))
+	fmt.Print(piscine.FirstWord(" lorem,ipsum "))
+	fmt.Print(piscine.LastWord(" "))
 }

@@ -1,4 +1,4 @@
-package test
+package piscine
 
 func PrintIfNot(str string) string {
 	count := 0

@@ -1,4 +1,4 @@
-package test
+package piscine
 
 func DigitLen(n, base int) int {
 	if !(base >= 2 && base <= 36) {return -1}

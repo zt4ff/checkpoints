@@ -1,4 +1,4 @@
-package test
+package piscine
 
 
 func isCapital(r rune) bool {

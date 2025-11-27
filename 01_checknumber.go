@@ -1,4 +1,4 @@
-package test
+package piscine
 
 func CheckNumber(arg string) bool {
 	for _, x := range arg {

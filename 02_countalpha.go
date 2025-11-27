@@ -1,4 +1,4 @@
-package test
+package piscine
 
 func CountAlpha(s string) int {
 	count := 0

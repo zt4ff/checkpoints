@@ -1,4 +1,4 @@
-package test
+package piscine
 
 func RetainFirstHalf(str string) string {
 	n := len(str)
