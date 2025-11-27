@@ -6,8 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Print(piscine.ThirdTimeIsACharm("123456789"))
-	fmt.Print(piscine.ThirdTimeIsACharm(""))
-	fmt.Print(piscine.ThirdTimeIsACharm("a b c d e f"))
-	fmt.Print(piscine.ThirdTimeIsACharm("12"))
+	fmt.Println(piscine.WeAreUnique("foo", "boo"))
+	fmt.Println(piscine.WeAreUnique("", ""))
+	fmt.Println(piscine.WeAreUnique("abc", "def"))
 }
