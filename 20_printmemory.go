@@ -15,10 +15,8 @@ func PrintMemory(arr [10]byte) {
 
 		z01.PrintRune(' ')
 
-		if i+1 < 10 {
-			z01.PrintRune(rune(hex[arr[i+1]>>4]))
-			z01.PrintRune(rune(hex[arr[i+1]&15]))
-		}
+		z01.PrintRune(rune(hex[arr[i+1]>>4]))
+		z01.PrintRune(rune(hex[arr[i+1]&15]))
 
 		if i == 2 || i == 6 {
 			z01.PrintRune('\n')
