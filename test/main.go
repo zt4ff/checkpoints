@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println(piscine.RepeatAlpha("abc"))
-	fmt.Println(piscine.RepeatAlpha("Choumi."))
-	fmt.Println(piscine.RepeatAlpha(""))
-	fmt.Println(piscine.RepeatAlpha("abacadaba 01!"))
+	fmt.Print(piscine.FromTo(1, 10))
+	fmt.Print(piscine.FromTo(10, 1))
+	fmt.Print(piscine.FromTo(10, 10))
+	fmt.Print(piscine.FromTo(100, 10))
 }
