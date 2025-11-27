@@ -6,8 +6,10 @@ import (
 )
 
 func main () {
-	fmt.Println(test.RetainFirstHalf("This is the 1st halfThis is the 2nd half"))
-	fmt.Println(test.RetainFirstHalf("A"))
-	fmt.Println(test.RetainFirstHalf(""))
-	fmt.Println(test.RetainFirstHalf("Hello World"))
+	fmt.Println(test.CamelToSnakeCase("HelloWorld"))
+	fmt.Println(test.CamelToSnakeCase("helloWorld"))
+	fmt.Println(test.CamelToSnakeCase("camelCase"))
+	fmt.Println(test.CamelToSnakeCase("CAMELtoSnackCASE"))
+	fmt.Println(test.CamelToSnakeCase("camelToSnakeCase"))
+	fmt.Println(test.CamelToSnakeCase("hey2"))
 }
