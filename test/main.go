@@ -6,8 +6,7 @@ import (
 )
 
 func main () {
-	fmt.Print(test.PrintIfNot("abcdefz"))
-	fmt.Print(test.PrintIfNot("abc"))
-	fmt.Print(test.PrintIfNot(""))
-	fmt.Print(test.PrintIfNot("14"))
+	fmt.Println(test.RectPerimeter(10, 2))
+	fmt.Println(test.RectPerimeter(434343, 898989))
+	fmt.Println(test.RectPerimeter(10, -2))
 }
