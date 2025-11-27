@@ -6,7 +6,8 @@ import (
 )
 
 func main () {
-	fmt.Println(test.RectPerimeter(10, 2))
-	fmt.Println(test.RectPerimeter(434343, 898989))
-	fmt.Println(test.RectPerimeter(10, -2))
+	fmt.Println(test.RetainFirstHalf("This is the 1st halfThis is the 2nd half"))
+	fmt.Println(test.RetainFirstHalf("A"))
+	fmt.Println(test.RetainFirstHalf(""))
+	fmt.Println(test.RetainFirstHalf("Hello World"))
 }
