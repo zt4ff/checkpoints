@@ -6,8 +6,8 @@ import (
 )
 
 func main () {
-	fmt.Print(test.PrintIf("abcdefz"))
-	fmt.Print(test.PrintIf("abc"))
-	fmt.Print(test.PrintIf(""))
-	fmt.Print(test.PrintIf("14"))
+	fmt.Print(test.PrintIfNot("abcdefz"))
+	fmt.Print(test.PrintIfNot("abc"))
+	fmt.Print(test.PrintIfNot(""))
+	fmt.Print(test.PrintIfNot("14"))
 }
