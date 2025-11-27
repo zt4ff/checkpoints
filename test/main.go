@@ -6,7 +6,8 @@ import (
 )
 
 func main () {
-	fmt.Println(test.CountAlpha("Hello world"))
-	fmt.Println(test.CountAlpha("H e l l o"))
-	fmt.Println(test.CountAlpha("H1e2l3l4o"))
+	fmt.Println(test.CountChar("Hello World", 'l'))
+	fmt.Println(test.CountChar("5  balloons", 5))
+	fmt.Println(test.CountChar("   ", ' '))
+	fmt.Println(test.CountChar("The 7 deadly sins", '7'))
 }
