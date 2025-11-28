@@ -1,1 +1,3 @@
 - printmemory
+- zipstring
+- can jump

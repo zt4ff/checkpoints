@@ -3,7 +3,7 @@ package piscine
 func atoi(s string) int {
 	result := 1
 	for _, x := range s {
-		result = result*10 + int(x-'0')
+		result = result*10 + int('0'-x)
 	}
 
 	return result
