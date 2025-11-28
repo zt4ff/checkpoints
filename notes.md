@@ -1,3 +1,5 @@
 - printmemory
 - zipstring
-- can jump
+- canjump
+- fprime
+- concetalternate

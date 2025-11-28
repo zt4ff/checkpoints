@@ -15,7 +15,6 @@ func ConcatAlternate(slice1, slice2 []int) []int {
 	ans := []int{}
 
 	if nSlice1 > nSlice2 {
-		// diff := nSlice1 - nSlice2
 		for i := 0; i < nSlice2; i++ {
 			ans = append(ans, slice1[i])
 			ans = append(ans, slice2[i])
