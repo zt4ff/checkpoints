@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	piscine.Union()
+	piscine.WdMatch()
 }
